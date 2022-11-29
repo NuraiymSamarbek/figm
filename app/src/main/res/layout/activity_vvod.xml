@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple"
+    tools:context=".vvod">
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="135dp"
+        android:layout_height="5dp"
+        android:layout_marginStart="139dp"
+        android:layout_marginEnd="138dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="343dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="17dp"
+        android:text="    E-mail"
+        android:textColor="@color/brown"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/password"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/WorldCinema"
+        android:layout_width="188dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="188dp"
+        android:layout_marginBottom="60dp"
+        android:text="WorldCinema"
+        android:textColor="@color/orange"
+        android:textIsSelectable="true"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/email"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.547"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/password"
+        android:layout_width="343dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="111dp"
+        android:background="@color/purple"
+        android:text="    Пароль"
+        android:textColor="@color/brown"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/voiti"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/voiti"
+        android:layout_width="344dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="13dp"
+        android:backgroundTint="#EF3A01"
+        android:text="Войти"
+        app:layout_constraintBottom_toTopOf="@+id/regis"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/regis"
+        android:layout_width="345dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="91dp"
+        android:backgroundTint="#332973"
+        android:text="Регистрация"
+        android:textColor="@color/Oran"
+        android:textColorHighlight="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
